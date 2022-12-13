@@ -7,4 +7,8 @@ import { Component } from '@angular/core';
 })
 export class AppComponent {
   title = 'gptfill';
+  getValues(values: any)
+  {
+    console.warn(values)
+  }
 }
